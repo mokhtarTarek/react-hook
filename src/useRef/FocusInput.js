@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 //useRef to acces dom node
 function FocusInput() {
     const inputRef = useRef(null) 
-    //acces the input element in the dom : inputRef.current!waww
+    //acces the input element in the dom : inputRef.current
     useEffect(() => {
         inputRef.current.focus()
         
